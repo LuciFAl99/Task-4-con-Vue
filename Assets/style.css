@@ -1,0 +1,124 @@
+.logo {
+    width: 8rem;
+    height: 5rem;
+    object-fit: contain;
+    margin-left: 3rem;
+}
+
+nav {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: black;
+}
+main{
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+}
+h2{
+    color: white;
+}
+
+.home {
+    background-image: url(./Imagenes/books.jpg);
+    background-size: cover;
+    height: 8rem;
+}
+
+
+.carrusel {
+    height: 10rem;
+}
+
+.home a {
+    text-decoration: none;
+    font-size: 4rem;
+   color: white;
+   
+}
+.input-group{
+    width: 8rem;
+}
+.search{
+    height: 3rem;
+}
+.boton{
+    width: 2rem;
+}
+input{
+    margin-left: 3rem;
+}
+.imagen{
+    object-fit: cover;
+    width: 20rem;
+    height: 20rem;
+}
+.card{
+    color: black;
+    width: 20rem;
+    height: 20rem;
+}
+.imagenes{
+    object-fit: cover;
+    width: 20rem;
+    height: 15rem;
+}
+footer{
+
+    background-color: deeppink;
+    min-height: 10vh;
+}
+.bi {
+font-size: 2em;
+margin-left: 1rem;
+}
+.card-text{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.message{
+    height: 7rem;
+}
+.color{
+    width: 70rem;
+}
+.table{
+    color: white;
+}
+
+caption{
+    font-size: x-large;
+}
+th, td{
+    color: white;
+}
+td{
+    height: 2rem;
+}
+
+.inputs{
+    margin-left: 1rem;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .header-cell {
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+   
+  }
+  
+  .data-cell {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+  }
+ 
