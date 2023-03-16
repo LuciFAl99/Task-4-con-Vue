@@ -34,7 +34,7 @@ const app = createApp({
             })
     },
 
-    methods: {
+    computed: {
      
         filtro() {
             let filtradoBusqueda = this.eventos.filter (evento => evento.name.toLowerCase().includes(this.valorBusqueda.toLowerCase()))

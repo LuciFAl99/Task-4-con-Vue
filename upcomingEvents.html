@@ -29,6 +29,7 @@
         </div>
     </nav>
     <main id="app">
+        {{filtro}}
         <div id="carouselExample" class="carousel slide d-flex">
             <div class="carousel-inner home">
                 <div class="carousel-item active">
@@ -58,8 +59,8 @@
             </template>
 
             <form class="d-flex nav-item search mt-3" role="search">
-                <input class="form-control me-2 anchoform" type="search" v-model="valorBusqueda" name="Nombre Evento" placeholder="Search" v-on:keyup="filtro">
-                <button type="submit" v-on:click.prevent="filtro">
+                <input class="form-control me-2 anchoform" type="search" v-model="valorBusqueda" name="Nombre Evento" placeholder="Search" @keyup>
+                <button type="submit">
                     <i class="fas fa-search boton d-flex justify-content-center"></i>
                 </button>
             </form>

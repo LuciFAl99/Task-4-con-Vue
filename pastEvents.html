@@ -29,6 +29,7 @@
         </div>
     </nav>
     <main id="app">
+{{filtro}}
         <div id="carouselExample" class="carousel slide d-flex">
             <div class="carousel-inner home">
                 <div class="carousel-item active">
@@ -51,7 +52,7 @@
 
             <template v-for="categoria of categorias">
                 <div class="mt-3" id="checkbox">
-                    <input v-model="checked" type="checkbox" :value="categoria" class="m-lg-2" @change="filtro">
+                    <input v-model="checked" type="checkbox" :value="categoria" class="m-lg-2" >
                     <label for="books">{{categoria}}</label>
                 </div>
 
@@ -59,7 +60,7 @@
 
             <form class="d-flex nav-item search mt-3" role="search">
                 <input class="form-control me-2 anchoform" type="search" v-model="valorBusqueda" name="Nombre Evento"
-                    placeholder="Search" v-on:keyup="filtro">
+                    placeholder="Search" @heyup>
                 <button type="submit">
                     <i class="fas fa-search boton d-flex justify-content-center"></i>
                 </button>
