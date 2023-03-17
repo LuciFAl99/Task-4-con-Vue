@@ -9,8 +9,7 @@ createApp({
             higherPercentage: {},
             upcommingStats: [],
             pastStats: [],
-            loadData: false,
-            failPromise:null
+          
         }
     },
     created() {
@@ -22,10 +21,10 @@ createApp({
                 this.createGeneralStats()
                 this.createCategoryStats(this.events.filter(e => e.estimate), this.upcommingStats)
                 this.createCategoryStats(this.events.filter(e => e.assistance), this.pastStats)
-                this.loadData = true
+              
             }
             )
-            .catch(err=>this.failPromise=true)
+            .catch('entro en el catch')
     },
     methods: {
        accumulator(eventList) {
