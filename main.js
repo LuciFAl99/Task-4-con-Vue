@@ -9,7 +9,6 @@ const app = createApp({
             checked: [],
             eventosFiltrados: [],
             cDate: [],
-            idEvento: [],
             details: []
     
         };
