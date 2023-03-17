@@ -57,6 +57,7 @@ createApp({
                 let evsByAttPcent = this.events.filter(e => e.assistance).sort((e1, e2) => e1.percent - e2.percent)
                 this.lowestPercentage = evsByAttPcent[0]
                 this.higherPercentage = evsByAttPcent[evsByAttPcent.length - 1]
+                
         }
     }
 }).mount('#app')
