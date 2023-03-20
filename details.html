@@ -76,7 +76,7 @@
                     </p>
                     <p><strong>Capacity:</strong> {{details.capacity}}
                     </p>
-                    <p><strong>Assistance:</strong> {{details.assistance ? details.assistance : details.estimate}}
+                    <p><strong> {{ details.assistance ? "Assistance: "+details.assistance: "Estimate: "+details.estimate}}</strong>
                     </p>
                 </div>
             </div>`

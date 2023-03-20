@@ -70,7 +70,7 @@
 
             <template v-if="eventosFiltrados.length > 0" v-for="evento of eventosFiltrados">
                 <div class="card mt-3 style" width="18rem">
-                    <img v-bind:src="evento.image" class="card-img-top imagenes" alt="">
+                    <img :src="evento.image" class="card-img-top imagenes" alt="">
                     <div class="card-body">
 
                         <h2 class="pb-3">{{evento.name}}</h2>
@@ -78,7 +78,7 @@
 
                         <div class="d-flex justify-content-around">
                             <p><strong>Price: ${{evento.price}}</strong>
-                                <p />
+                                <p/>
                                 <a :href="'./details.html?id='+evento._id" class="btn btn-primary">Details</a>
                         </div>
                     </div>
